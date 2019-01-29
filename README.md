@@ -16,7 +16,7 @@ Create and manipulate Javascript objects, using constructors and prototypes.
 
 Specification | Input | Output
 ------------- | ----- | ------
-<<Spec>> | <<input>> | <<output>>
+<< Spec >> | << input >> | << output >>
 
 
 ### Stretch Goals

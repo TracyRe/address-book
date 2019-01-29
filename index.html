@@ -11,8 +11,38 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="content-wrap">
+      <div class="content-wrapper">
+        <h1>Address Book</h1>
+        <h2>Add Contact</h2>
+        <div class="entry">
 
+        <form id="new-contact">
+
+              <label for="new-first-name">First Name </label>
+              <input type="text" name="new-first-name" value="" id="new-first-name" placeholder="First Name"><br>
+
+              <label for="new-last-name">Last Name </label>
+              <input type="text" name="new-last-name" value="" id="new-last-name" placeholder="Last Name"><br>
+
+              <label for="new-phone-number">Phone Number </label>
+              <input type="tel" name="new-phone-number" value="" id="new-phone-number" placeholder="Phone Number"><br>
+              <button class="btn btn-primary" type="submit" name="button">Add Contact</button>
+              <!-- <button id="redo" class="btn btn-info" type="button" name="button">Clear</button> -->
+        </form>
+
+      </div>
+        <h2>Contacts</h2>
+        <ul id="contacts">
+
+        </ul>
+
+        <div id="show-contact">
+          <p><strong>First Name</strong> <span class="first-name"></span></p>
+          <p><strong>Last Name</strong> <span class="last-name"></span></p>
+          <p><strong>Phone Number</strong> <span class="phone-number"></span></p>
+          <div id="buttons">
+          </div>
+        </div>
       </div>
     </div>
   </body>
